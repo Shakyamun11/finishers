@@ -10,15 +10,17 @@
     position: relative;
     background-image:
     linear-gradient(
-      rgba(62, 62, 62, 0.75),
-      rgba(69, 69, 69, 0.75)), url('/src/img/glass-reflection-architecture-pattern.jpg');
-    background-repeat: no-repeat;
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)), url('/src/img/imgb64a79b909dc21c431efb273e17ed6f8.jpg');
+    /* background-repeat: no-repeat; */
+
     }
 nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
 }
 nav img{
     width: 150px;
@@ -34,15 +36,16 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: rgb(46, 17, 17);
     text-decoration: none;
     font-size: 13px;
+    font-weight: bold;
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: rgba(0, 164, 167, 1);
+    background: rgba(0, 150, 55);
     margin: auto;
     display: block;
     transition: 0.5s;
@@ -53,39 +56,45 @@ nav img{
 .text-box{
     width: 90%;
     color: #fff;
-    position: absolute;
-    top: 35%;
+    position: relative;
+    top: 150px;
     left: 5%;
     transform: translate (-50%, -50%);
     text-align: center;
     text-size-adjust: 20px;
+    
+    
 }
 .text-box h1{
-    font-size: 63px;
+    font-size: 35px;
+    color: #fff;
     
 }
 .text-box p{
-    margin: 10px 0 40px;
-    font-size: 23px;
-    color: rgba(0, 164, 167, 1);
+    margin: 20px 0 30px;
+    font-size: 19px;
+    color: rgbargb(0, 150, 55);
     
 }
-.hero-btm{
+.hero-btn{
     display: inline-block;
     text-decoration: none;
     color: #fff;
     padding: 12px 36px;
-    border: 1px solid  rgba(0, 164, 167, 1);
+    border: 1px solid  rgb(0, 150, 55);
     font-size: 13px;
     background: transparent;
     position: relative;
     cursor: pointer;
     
 }
-.hero-btm:hover{
+.hero-btn:hover{
     font-size: 14px;
-    background: rgb(0, 186, 167);
+    background:rgb(0, 150, 55);
     transition: 1s;
+}
+ nav .fa{
+    display: none;
 }
 @media(max-width: 700px) {
     .text-box h1{
@@ -96,12 +105,186 @@ nav img{
     }
     .nav-links{
         position: absolute;
-        background: white;
+        background:rgb(0, 150, 55);
         height: 100vh;
         width: 200px;
         top: 0px;
-        right: 0px;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
     }
     .nav-links ul li{
-        display: block;}
-    }   
+        display: block;
+    }
+    nav .fa{
+        display: block;
+        color: rgb(0, 150, 55);
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+  /* ////////////////////////////////////section2/////////////////////// */
+  .course{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(0, 150, 55);
+}
+p{
+    color: rgb(0, 150, 55) ;
+    font-size: 14px;
+    font-weight: 300 ;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top:  20%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 20%;
+    background: rgb(237, 237, 237);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 150, 55);
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/* ---------- works --------------- */
+.works{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.burnHouse-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+.burnHouse-col img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(245, 255, 247, 0.7)
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: rgb(0, 150, 55);
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+}
+/* /////////////////////contact////////////////////////// */
+.cntct{
+    position: relative;
+    width:  80%;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)), url('/src/img/dji-0389-5.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    left: 130px;
+    
+    
+}
+.cntct h1{
+    display: flex;
+    position: left;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: bold;
+    color: rgb(0, 150, 55);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cntct-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 5px;
+    border: 0px solid  rgb(0, 150, 55);
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    top: 50px;
+}
+.cntct-btn:hover{
+    font-size: 14px;
+    background:rgb(0, 150, 55);
+    transition: 1s;
+}
+.cntct-info{
+    position: relative;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(0, 150, 55);
+    left: 130px;
+    border-radius: 10px;
+    display:flexbox
+}
+/* //////////////////footer///////////////// */
+.footer{width: 100%;
+        text-align: center;
+        padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
