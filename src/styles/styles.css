@@ -2,6 +2,236 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* ////////////////////////////////////openingstartshere/////////////////// */
+#opening{
+   position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    animation-duration: 1.9s;
+    animation-iteration-count: calc(1);
+    animation-fill-mode: forwards;
+    animation-name: opening;
+    animation-direction: reverse;
+    animation-delay: 0.25s;
+    z-index: 1;
+    left: 0px;
+}
+
+ @keyframes opening{
+    from {top: -1100px;}
+    to { top: 0px;} 
+}  
+
+
+.F{
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.2s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: F;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+        
+    }
+@keyframes F{
+    from {top: -1100px;}
+    to { top: 0px;}
+}
+.I{
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.37s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: I;
+        animation-direction: reverse;
+        animation-delay: 0.5;
+    }
+    @keyframes I{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+
+    .N{
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 3.47s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: N;
+        animation-direction: reverse;
+        animation-delay: .5s;
+    }
+    
+    @keyframes N{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+
+    .I{
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.35s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: I;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+        
+    }
+
+    @keyframes I{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+.S{
+    
+        position: relative;
+    
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.25s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name:  S;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+    }
+    @keyframes S{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+    .H{
+    
+        position: relative;
+     
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.39s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name:  H;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+    }
+    @keyframes H{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+    .E{
+    
+        position: relative;
+      
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.24s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name:  E;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+    }
+    @keyframes E{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+    .R{
+    
+        position: relative;
+        
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.45s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name:  R;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+    }
+    @keyframes R{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+    .S1{
+    
+        position: relative;
+      
+        font-size: 200px;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 2.35s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name:  S;
+        animation-direction: reverse;
+        animation-delay: 0.5s;
+    }
+    @keyframes S1{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+    .FINISHERS{
+        color: rgb(0, 150, 55);
+        width: 100%;
+        position: absolute;
+        display: flex; 
+        justify-content:center;
+        font-weight: bold;
+        top: 65%;
+        
+    }
+    @media(max-width: 700px){
+        .F{
+            font-size: 70PX;
+        }
+        .I{
+            font-size: 70px;
+        }
+        .N{
+            font-size: 70PX;
+        }
+        .S{
+            font-size: 70px;
+        }
+        .H{
+            font-size: 70px;
+        }
+        .E{
+            font-size: 70px;
+        }
+        .R{
+            font-size: 70px;
+        }
+        .S1{
+            font-size: 70px;
+        }
+        
+    }
+
+  /* /////////////////////////////////////////////openingendshere////////////////////////////// */
 .header{
     min-height: 100vh;
     width: 100%;
@@ -13,9 +243,9 @@
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.75)), url('/src/img/imgb64a79b909dc21c431efb273e17ed6f8.jpg');
     /* background-repeat: no-repeat; */
-
-    }
+}
 nav{
+    position: relative;
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
@@ -57,7 +287,7 @@ nav img{
     width: 90%;
     color: #fff;
     position: relative;
-    top: 150px;
+    top: 250px;
     left: 5%;
     transform: translate (-50%, -50%);
     text-align: center;
@@ -127,6 +357,7 @@ nav img{
   /* ////////////////////////////////////section2/////////////////////// */
   .course{
     width: 80%;
+    
     margin:auto;
     text-align: center;
     padding-top: 100px;
@@ -148,6 +379,7 @@ nav img{
     display: flex;
     justify-content: space-between;
 }
+
 .course-col{
     flex-basis: 20%;
     background: rgb(237, 237, 237);
@@ -156,7 +388,9 @@ nav img{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    /* margin-left: 1%; */
 }
+
 .course-col h3{
     text-align: center;
     font-weight: 600;
@@ -296,14 +530,31 @@ nav img{
     height: 100%;
 }
 .about-col{
-    flex-basis: 30%;
+    flex-basis: 20%;
     background: rgb(237, 237, 237);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    ;
+    
     
 }
-
- 
+.about-col{
+    padding-bottom:45px;
+}
+.about-col p{
+font-weight:400;
+color: rgb(0, 150, 55);
+font-size:30px;
+margin: 0 0 15px;
+border-left:5px solid green;
+padding-left:15px;
+text-align: left;
+}
+.about-col h1{
+    text-align: left;
+    padding:10px;
+}
+.about-col h5{
+    text-align: left;
+}
